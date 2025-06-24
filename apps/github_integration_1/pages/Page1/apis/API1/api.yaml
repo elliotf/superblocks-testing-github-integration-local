@@ -1,0 +1,18 @@
+authorization:
+  type: AUTHORIZATION_TYPE_APP_USERS
+blocks:
+  - name: Step1
+    step:
+      integration: javascript
+      javascript:
+        body:
+          path: ./step1.js
+metadata:
+  name: API1
+  organization: 3ab19608-0cad-4cfd-a0e4-6c0d4c732af7
+  timestamps:
+    updated: 2025-06-24T19:36:46.871Z
+trigger:
+  application:
+    id: 21ec9bee-1454-4aab-aa01-ee4e4a86c41b
+    pageId: c8c25f70-3925-4c10-9458-e1e4872d488c

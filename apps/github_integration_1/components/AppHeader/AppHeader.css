@@ -1,0 +1,96 @@
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: var(--color-neutral);
+  border-bottom: 1px solid var(--color-neutral-100);
+}
+
+.app-header__title {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: var(--color-text-color);
+  margin: 2px 0 0 4px;
+  padding: 0;
+}
+
+.app-header__left-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-header__right-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-header__logo {
+  height: 46px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.app-header__avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.app-header__avatar-container {
+  position: relative;
+}
+
+.app-header__avatar-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  color: var(--color-text-color);
+}
+
+.app-header__avatar-button:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--color-neutral) 70%,
+    var(--color-text-color) 10%
+  );
+}
+
+.app-header__avatar-button-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.app-header__avatar-button-text-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--color-text-color);
+}
+
+.app-header__avatar-button-text-email {
+  font-size: 12px;
+  line-height: 1.2;
+  color: color-mix(in srgb, var(--color-text-color) 90%, transparent 10%);
+}
+
+.app-header__avatar-button-dots {
+  font-size: 18px;
+  color: var(--color-text-color);
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 16px;
+}
