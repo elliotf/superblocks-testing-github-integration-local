@@ -7,6 +7,10 @@
     "ec3168cb-f52a-4f56-8b7d-a12edea92884": {
       "location": "apps/github_try_1",
       "resourceType": "APPLICATION"
+    },
+    "ecf28d72-debe-4bdb-9177-f029ca7b5ee7": {
+      "location": "apps/codemode-1",
+      "resourceType": "APPLICATION"
     }
   }
 }
