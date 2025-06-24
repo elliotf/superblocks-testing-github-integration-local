@@ -1,0 +1,12 @@
+{
+  "configType": "ROOT",
+  "metadata": {
+    "cliVersion": "2.0.6-next.18"
+  },
+  "resources": {
+    "ec3168cb-f52a-4f56-8b7d-a12edea92884": {
+      "location": "apps/github_try_1",
+      "resourceType": "APPLICATION"
+    }
+  }
+}
